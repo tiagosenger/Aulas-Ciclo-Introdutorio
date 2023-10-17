@@ -5,6 +5,9 @@ using namespace std;
 
 template <typename T>
 class ListaGenerica {
+private:
+    vector<T> lista;
+
 public: 
     void adicionarElemento(const T& elemento) {
         lista.push_back(elemento);
@@ -25,8 +28,6 @@ public:
         }
         cout << endl;
     }
-
-    vector<T> lista;
 };
 
 int main() {
