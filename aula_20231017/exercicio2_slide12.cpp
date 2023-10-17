@@ -7,6 +7,10 @@ public:
     virtual void desenhar()=0;
 };
 
+class Forma{
+    
+};
+
 class Circulo : public Desenhavel{
 public:
     void desenhar() override{
